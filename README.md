@@ -1,7 +1,7 @@
-# Chrome Nano AI 4GB Deleter
+ # **I will not be responsible for damages that have occurred. USE AT YOUR OWN RISK.** ❗❗❗
 
 
-❗❗❗ # **I will not be responsible for damages that have occurred. USE AT YOUR OWN RISK.**
+*The Final Project*
 
 
 
