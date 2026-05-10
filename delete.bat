@@ -1,4 +1,29 @@
 @echo off
+echo Welcome to the Deleter!!! 
+
+echo  I will not be responsible for any data loss! Use at your own risk.
+choice /c YN /m "Press Y to continue and N to close"
+
+if errorlevel 2 (
+    echo Cancelled. Exiting...
+    timeout /t 2 /nobreak > NUL
+    exit /b
+)
+
+cls
+
+echo Chrome will be force shutdown. Please save your files or tasks. You have infinite time to save, then press Y to continue
+choice /c YN /m "Press Y to continue and N to close"
+
+if errorlevel 2 (
+    echo Cancelled. Exiting...
+    timeout /t 2 /nobreak > NUL
+    exit /b
+)
+
+taskkill /f /im chrome.exe > NUL 2>&1
+
+cls
 
 cd /d "%localappdata%\Google\Chrome\User Data\OptGuideOnDeviceModel\"
 
