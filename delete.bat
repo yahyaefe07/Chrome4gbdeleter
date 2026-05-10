@@ -1,5 +1,5 @@
 @echo off
-echo Welcome to the Deleter!!! 
+echo Welcome to the Deleter!
 
 echo  I will not be responsible for any data loss! Use at your own risk.
 choice /c YN /m "Press Y to continue and N to close"
